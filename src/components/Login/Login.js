@@ -41,7 +41,7 @@ const Login = (props) => {
     isValid: null,
   })
 
-  const {isVlaid: emailIsValid} = emailState;
+  const {isValid: emailIsValid} = emailState;
   const {isValid: passwordIsValid} = passwordState;
 
 
